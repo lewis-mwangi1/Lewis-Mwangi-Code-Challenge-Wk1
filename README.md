@@ -55,7 +55,6 @@ Or you can access the web application directly via this [LINK.](link.com/)
 *****
 ## Contact Information
 * Email : gluwiz@gmail.com
-* +2547 79 9699170
 *****
 ## [License](LICENSE)
 MIT License

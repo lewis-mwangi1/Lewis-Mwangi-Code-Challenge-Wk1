@@ -15,8 +15,8 @@ This is my attempt at tackling the week 1 Moringa School Software Development co
 ## SetUp Instruction
 ### Requirements
 * [Lang](lang Url)
-* [Framework](Framework URL)
-* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+* HTML 
+* Text editor eg [Visual Studio Code]
 * [Testing Platform](Platform URL)
 
 
@@ -32,26 +32,21 @@ This is my attempt at tackling the week 1 Moringa School Software Development co
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
-To install all requirements
+Clone repository
 
-
-Then run server with the above command
+Run using live server
 *****
 ## Live Link
 Or you can access the web application directly via this [LINK.](link.com/)
 *****
 ## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
+- Google fonts
 *****
 ## Technologies Used
 1. HTML
 2. CSS
 3. JavaScript
-4. 
-5. 
+ 
 *****
 ## Contact Information
 * Email : gluwiz@gmail.com

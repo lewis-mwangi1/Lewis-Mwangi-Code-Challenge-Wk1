@@ -7,7 +7,9 @@ This is my attempt at tackling the week 1 Moringa School Software Development co
 ******
 
 ## SCREENSHOTS
-https://user-images.githubusercontent.com/50862073/226425086-2bf80c84-f304-4ec8-8fcc-01bd78157f12.png
+![Screenshot 2023-03-20 204835](https://user-images.githubusercontent.com/50862073/226425086-2bf80c84-f304-4ec8-8fcc-01bd78157f12.png)
+![Screenshot 2023-03-20 204852](https://user-images.githubusercontent.com/50862073/226425097-cd49308f-8d1f-45af-9cd0-c5b1372cfecc.png)
+![Screenshot 2023-03-20 204905](https://user-images.githubusercontent.com/50862073/226425103-5ebc4a22-a6ac-469a-b940-22df1f62d484.png)
 
 
 ********

@@ -7,8 +7,7 @@ This is my attempt at tackling the week 1 Moringa School Software Development co
 ******
 
 ## SCREENSHOTS
-- link 1
-- link 2
+https://user-images.githubusercontent.com/50862073/226425086-2bf80c84-f304-4ec8-8fcc-01bd78157f12.png
 
 
 ********
@@ -37,7 +36,7 @@ Clone repository
 Run using live server
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
+Or you can access the web application directly via this [LINK.](https://lewis-mwangi1.github.io/Lewis-Mwangi-Code-Challenge-Wk1/)
 *****
 ## Dependencies
 - Google fonts

@@ -12,18 +12,22 @@
     <canvas class="background"></canvas>
     <!-----------SPEED DETECTOR----------->
     <nav>
-        <h2 class="speedDetector">Speed Detector</h2>
+        <h2 class="speedDetector">SPEED DETECTOR</h2>
         <ul>
-            <li><a href="grade-Generator.html">Grade Generator</a></li>
-            <li><a href="netSalary.html">Net Salary</a></li>
+            <li><a href="grade-Generator.html">GRADE GENERATOR</a></li>
+            <li><a href="netSalary.html">NET SALARY</a></li>
         </ul>
     </nav>
+    <div class="Container">
     <form>
-        
+        <label for="speed">Enter car speed (km/h):</label>
+		<input type="number" id="speed" name="speed" min="0" max="500" required>
+		<button type="submit" onclick="checkSpeed()">Check Speed</button>
     </form>
-        
+    </div>
+    <p id="points"></p>
 
     <script src="speedDetector.js">
     </script>
 </body>
-</html>
+</html

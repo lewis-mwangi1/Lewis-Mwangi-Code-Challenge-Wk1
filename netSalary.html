@@ -12,16 +12,21 @@
     <canvas class="background"></canvas>
     <!-----------NET SALARY----------->
     <nav>
-        <h2 class="netSalary">Net Salary</h2>
+        <h2 class="netSalary">NET SALARY</h2>
         <ul>
-            <li><a href="speedDetector.html">Speed Detector</a></li>
-            <li><a href="grade-Generator.html">Grade Generator</a></li>
+            <li><a href="speedDetector.html">SPEED DETECTOR</a></li>
+            <li><a href="grade-Generator.html">GRADE GENERATOR</a></li>
         </ul>
     </nav>
+    <div class="Container">
     <form>
-        
+        <label for="basic_salary">Basic Salary:</label>
+		<input type="number" id="basic_salary" name="basic_salary" required><br><br>
+		<label for="benefits">Benefits:</label>
+		<input type="number" id="benefits" name="benefits" required><br><br>
+		<button type="button" onclick="calculateNetSalary()">Calculate Net Salary</button>
     </form>
-        
+</div>
 
     <script src="netSalary.js">
     </script>

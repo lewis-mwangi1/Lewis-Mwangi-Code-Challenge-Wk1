@@ -10,18 +10,20 @@
 </head>
 <body>
     <canvas class="background"></canvas>
-    <!-----------SPEED DETECTOR----------->
+    <!-----------GRADE GENERATOR----------->
     <nav>
-        <h2 class="gradeGenerator">Grade Generator</h2>
+        <h2 class="gradeGenerator">GRADE GENERATOR</h2>
         <ul>
-            <li><a href="speedDetector.html">Speed Detector</a></li>
-            <li><a href="netSalary.html">Net Salary</a></li>
+            <li><a href="speedDetector.html">SPEED DETECTOR</a></li>
+            <li><a href="netSalary.html">NET SALARY</a></li>
         </ul>
     </nav>
-    <form>
-        
-    </form>
-        
+    <div class="Container">
+        <label for="mark">Enter student's mark:</label>
+        <input type="number" id="mark" name="mark" min="0" max="100">
+        <button onclick="calculateGrade()">Calculate Grade</button>
+        <p id="grade"></p>
+    </div>
 
     <script src="gradeGenerator.js">
     </script>

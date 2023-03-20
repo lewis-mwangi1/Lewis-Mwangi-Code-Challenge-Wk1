@@ -1,16 +1,16 @@
-function speedDetector(speed) {
-  const speedLimit = 70;
-  const kmPerDemeritPoint = 5;
-  let demeritPoints = 0;
+function checkSpeed() {
+  const speed = document.getElementById("speed").value;
+  let points = 0;
 
-  if (speed <= speedLimit) {
-    console.log("Ok");
+  if (speed < 70) {
+    points = 0;
   } else {
-    demeritPoints = Math.floor((speed - speedLimit) / kmPerDemeritPoint);
-    if (demeritPoints > 12) {
-      console.log("License suspended");
-    } else {
-      console.log(`Points: ${demeritPoints}`);
-    }
+    points = Math.floor((speed - 70) / 5);
+  }
+
+  if (points > 12) {
+    document.getElementById("points").innerHTML = "License suspended";
+  } else {
+    document.getElementById("points").innerHTML = "Points: " + points;
   }
 }
